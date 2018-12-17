@@ -6,7 +6,7 @@ public class spike {
 
 
 	public void bucket (){
-		int like = -170;
+		int leak = -170;
 		int MAX_CAPASITY = 1500;
 		int capasity = 0;
 		int input = 340;
@@ -26,7 +26,7 @@ public class spike {
 
 			}
 			if(capasity > 0)
-				capasity = capasity + like;
+				capasity = capasity + leak;
 			System.out.println("capasity end: " + capasity);
 			n--;
 		}
