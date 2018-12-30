@@ -22,7 +22,6 @@ public class spike {
 				capasity +=input; 
 				if(capasity > MAX_CAPASITY){
 					spike ++;
-					//System.out.println(spike + " spike*******************");
 
 					capasity -= input;  //capasity =0;
 				}
