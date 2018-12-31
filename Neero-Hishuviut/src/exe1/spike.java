@@ -22,8 +22,7 @@ public class spike {
 				capasity +=input; 
 				if(capasity > MAX_CAPASITY){
 					spike ++;
-
-					capasity -= input;  //capasity =0;
+					capasity -= input;  
 				}
 
 			}
